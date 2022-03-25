@@ -1,0 +1,112 @@
+.navbar-light .logo.navbar-brand{
+    color: #fff!important;
+    font-family: 'Jost';
+    font-size: 30px;
+    font-weight: 700;
+}
+.navbar-light .navbar-nav .blog-btn.nav-link{
+    background-color: #fff;
+    padding: 7px 20px;
+    color:#622b0c;
+    font-size: 15px;
+    font-weight: 500;
+}
+.banner{
+    height: 400px;
+    background-image: url('../../images/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.747);
+    z-index: -1;
+}
+.banner-container{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-text h1{
+    font-family: 'Jost';
+    font-size: 40px;
+    color: rgb(212, 209, 209);
+    font-weight: 700;
+    text-align: center;
+}
+.create-form-area, .show-blog-area{
+    padding-top:70px ;
+    font-family: "Jost";
+}
+.show-blog-area{
+    margin-left: 30px;
+}
+.create-form-area h1, .show-blog-area h1{
+    color: #622b0c;
+    font-weight: 500;
+    margin-bottom: 35px;
+}
+.blog-form label{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.blog-form input, .blog-form textarea{
+    width: 100%;
+    padding: 10px 20px;
+    height: 55px;
+    font-size: 15px;
+    outline: 0;
+    font-weight: 500;
+    color: #535353;
+    border-radius: 3px;
+    border: solid 1px rgb(245, 238, 238);
+    background: #fff;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 6%);
+    margin-bottom:15px;
+}
+.blog-form textarea{
+    height: 180px;
+}
+.blog-form input[type="submit"]{
+    background-color:#622b0c;
+    color: #fff;
+    border: 2px solid transparent;
+    transition: .3s;
+}
+.blog-card{
+    border: solid 1px rgb(245, 238, 238);
+    background:#faf5f2;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 6%);
+    padding: 20px;
+    font-family: 'Jost';
+    border-radius: 3px;
+}
+a{
+    text-decoration:none;
+}
+.blog-card a h3{
+    font-size: 25px;
+    font-weight: 700;
+    color: #000;
+   
+}
+.blog-card small{
+    font-size: 17px;
+    color: #706c6c;
+    margin: 10px 0;
+}
+.blog-card p{
+    font-size: 20px;
+}
